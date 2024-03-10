@@ -2,7 +2,7 @@ import "./App.css";
 import { ToastContainer } from "react-toastify";
 import { Box, Grid, Stack } from "@mui/material";
 import Navbar from "./components/Navbar/Navbar";
-import AppSwitch from "./routes/Routes";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Navbar />
         <Stack direction="row" p={0} className="dashboard-container">
           <Grid className="main-page-container">
-            <AppSwitch />
+            <Home />
           </Grid>
         </Stack>
       </Box>
