@@ -1,0 +1,13 @@
+.dashboard-container {
+  height: calc(100vh - 5rem) !important;
+  width: 100vw;
+  margin-top: 5rem;
+  display: flex;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.main-page-container {
+  padding: 1rem;
+  width: 100%;
+}
